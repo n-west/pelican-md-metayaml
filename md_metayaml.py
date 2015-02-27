@@ -1,7 +1,7 @@
 from pelican import signals
 from pelican.readers import MarkdownReader
 
-from .markdown_metayaml.meta_yaml import MetaYamlExtension
+from markdown_metayaml.meta_yaml import MetaYamlExtension
 
 class MarkdownYAMLReader(MarkdownReader):
     """Reader for Markdown files with YAML metadata"""
